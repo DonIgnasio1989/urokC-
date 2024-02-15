@@ -18,7 +18,7 @@ namespace DensityCalculator
             double temperature = Convert.ToDouble(Console.ReadLine());
 
             // Расчет плотности по заданной температуре
-            double density = densityAtStandardTemp - tempCoefficient * (temperature - 20);
+            double density = densityAtStandardTemp - tempCoefficient * (temperature - 15);
 
             // Расчет массы естественной убыли
             double naturalLoss = naturalLossCoefficient * density;
